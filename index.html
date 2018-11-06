@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
- 
-    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+   <meta name="google-site-verification" content="YqbgouVXCbS6vXgG6pi70W8uP_MexedYo3oJXIdAFb8" />
+    <link rel="shortcut icon" href="assets/images/icons/favicon.png">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/semantic-ui@2.2.1(components/reset.min.css+components/grid.min.css+semantic.min.css)">
     <link href="https://fonts.googleapis.com/css?family=Karla|Poppins:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
@@ -22,12 +22,12 @@
     <meta property="og:image:width" content="470"/>
     <meta property="og:image:height" content="250"/>
     <meta property="og:image:type" content="image/png"/>
-    <meta property="og:url" content="#"/>
+    <meta property="og:url" content="http://www.reckonx.in/"/>
     <meta property="og:description" content="Hack, build,innovate at Jodhpur&#39;s largest hackathon. Jan 29-30 2018."/>
 
     <!-- for Twitter -->
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="#"/>
+    <meta name="twitter:site" content="@info_RECKON"/>
     <meta name="twitter:title" content="RECKON-jiet 2018"/>
     <meta name="twitter:description" content="Hack, build, and innovate at Jodhpur&#39;s largest hackathon.Jan 29-30 2018."/>
     <meta name="twitter:image" content="assets/images/hack-twitter-logo.png"/>
@@ -57,25 +57,8 @@
 
 </head>
 <body>
-<!-- PROBLEM POPUP -->
-<div id="problem_popup" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-    <h4 id="problem" style="font-size:2em; margin-top:1em;">HELLO</h4>
-    <hr>
-    <div id="problem_list" style="margin-top: 1em;">
-    </div>
-    <div id="slide-container">
-    <ul id="slides">
-        <span class="nav fa fa-chevron-left fa-3x" id="left"></span>
-        <span class="nav fa fa-chevron-right fa-3x" id="right"></span>  
-    </ul>
-    </div>
-  </div>
-</div>
-    <span id="splash">
-    
 
+    <span id="splash">
     <header>
         <div class="left"><h1 class="mobile-only brand"> - jiet</h1></div>
         <div class="mid"></div>
@@ -96,11 +79,7 @@
                 <h3 class="light days">36 DAYS REMAINING</h3>
                 <h3>JANUARY 29-30th 2018</h3>
                 <h1 class="brand">-jiet</h1>
-
-                <!--p>It is the year MMXVII. 1000 hackers gather at the Massachusetts Institute of Technology for its annual undergraduate student hackathon.</p>
-
-                <p>They represent the <span class="red">Red Faction</span> and the <span class="blue">Blue Faction</span>. But over 24 hours, they will work together to envision and develop the technology of tomorrow.</p-->
-            </div>
+                            </div>
 
              <a class="spinner middle aligned content" href="#!" draggable="false">
                 <div class="spinner-container">
@@ -117,45 +96,101 @@
                     <li id="theme-section">
                         <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
                         <a class="compact-button small round button" href="#theme"><i class="faq"></i></a>
-                        <a class="primary-button round button" href="#theme"><i class="faq"></i>PROBLEM</a>
-
+                        <a class="primary-button round button" href="#theme"><i class="faq"></i>THEME</a>
                         <section id="problem_content" class="content">
+
                             <div id="problemStatement" onclick="currentSlide(0)">
                                 <h4 class="question">
-                                    AGRICULTURE PRODUCTIVITY
+                                Agriculture
                                 </h4>
                                 <ul hidden>
-                                    <li>How can we increase in the productivity and betterment of crops for the farmers who are far away
-from the knowledge of agriculture science by prviding them technical assistance practically with help of technology.</li>
-                                    <li>Lets try to improve the supply chain of the agriculture products from farmers to the market they deal
-with so they can get a better business prposition.</li>
-                                    <li>Small farmers cannot afford big machinery , lets help them reach their goals by providing sharing basis
-machinery between 3 to 4 agriculltural land.</li>
-                                    <li>Lets try to get seed funding to the agricultural startups and small business so that our india who runs on agriculture could experience more business propositions.</li>
-                                    <li>Security system development for the farmers for their land and stock by developing small feasible
-product will they can easily afford.</li>
+                                <li>  Building smart and efficient solutions for farmers who are too far from knowledge and technology to increase the productivity and quality of crops grown.</li>
+                                <li> Building platforms for direct chain supply of products from farmers to market.</li>
+                                <li>  Seed funding for smart farmers and local enterprise businesses idea based on agriculture and productivity.</li>
+                                <li> Security system development for the farmers for their land and stock by developing small feasible product that are easily affordable.</li> 
+
+
                                 </ul>
                             </div>
                             
                             <div id="problemStatement" onclick="currentSlide(1)">
                                 <h4 class="question">
-                                     EDUCATION
+                                     Education
                                 </h4>
 
                                 <ul hidden>
-                                    <li>Providing students elearning sytem introducing them with new methods of learning using technology. For ex. Giving e lectures from n number of places across india who have good teaching. Tieing up all the school in a radius of 5-10 km and and turning some inter school activies
-through technology.</li>
-                                    <li>Geeting technology to government schools ,by making low cost camera management system
-and biometric attendece system.</li>
-                                    <li>Using blockvhain technology to secure and improve the data system of the running students of
-and of teachers to.</li>
-                                    <li>Develop a portal to educate the older generation and make them read and write through which
-the people in village can endure and environment of learning.</li>
-                                    <li>Making and offline management app for the schools and colleges in india which actually run
-privately but with high end security reasons.</li>
+                                  <li> Promoting education to all system by various technical means like smart classes for free etc.</li>
+<li>  Generalized school security systems that can include smart cameras, biometric system, face recognition etc.</li>
+<li>Securing data of students and teachers using blockchain and making system flexible too for other fields in which it can be implemented.</li>
+<li>Special portals and platform to educate senior citizens about various topics they required like mythology, cosmology current affairs etc.</li>
+<li>Generalized apps for school/colleges to maintain data of various authority, teachers, students, feedback/review system, live classes over places etc.</li>
+
                                 </ul>
                             </div>
                             
+                            <div id="problemStatement" onclick="currentSlide(2)">
+                                <h4 class="question">
+                                    Efficient Energy Generation & Management
+                                </h4>
+
+                                <ul hidden>
+                                   <li>Making smart products for better use of energy at low cost of production.</li>
+                                    <li>Making basic facilities available to all like electricity, clean water supply. This can be done by local solutions like small, portable windmill system etc.</li>
+                                    <li>Using renewable resources for various purposes at low machinery cost.</li>
+                                </ul>
+                            </div>
+
+                            <div id="problemStatement" onclick="currentSlide(3)">
+                                <h4 class="question">
+                                     Health Care
+                                </h4>
+
+                                <ul hidden>
+                                 <li>Building optimized solution to get all high-end facilities from nearest hospitals.</li>
+<li>  Appointment booking and Medicine delivery system at doorsteps with automatic online payment. </li>
+<li>  Low cost machinery that can detect various kinds of diseases before they grow.</li>
+<li>Maintaining a profile of a person related to medical history. So that he/she can be diagnosed faster in case of emergencies.</li>
+<li>Tracking nearest hospitals, blood banks with units etc. in case of emergencies.</li>
+
+                                </ul>
+                            </div>
+
+                            <div id="problemStatement" onclick="currentSlide(4)">
+                                <h4 class="question">
+                                     Telesystem
+                                </h4>
+
+                                <ul hidden>
+                                 <li>A Communication system that can work on low bandwidth where network connectivity is too low.</li>
+                                    <li>Platform to store, update and verify data locally without using WWW and limit to  perticular area .</li>
+                                    <li>Applications to compare prizes of various local shops including online shopping and payment portals.</li>
+                                    <li>E-Yellow Pages for all localities of a perticular village where data can be added and updated easily.</li>
+
+                                </ul>
+                            </div>
+
+                            <div id="problemStatement" onclick="currentSlide(5)">
+                                <h4 class="question">
+                                     Business & Entrepreneurship
+                                </h4>
+
+                                <ul hidden>
+                                 <li> Creating a platform for crowd sourcing and funding for potential startup and local traditional business.</li>
+                                 <li> To enhance local business and entrepreneurship skills by various online and offline solutions available on demand.</li>
+                                </ul>
+                            </div>
+                            <div id="problemStatement" onclick="currentSlide(6)">
+                                <h4 class="question">
+                                     Miscellaneous
+                                </h4>
+
+                                <ul hidden>
+                            <li>Finding nearest NGOs, NPOs or govt. bodies for any help and support </li>
+                            <li>Counselling for mental health and depression issues in locals.</li>
+
+                                </ul>
+                            </div>
+
                         </section>
 
                     </li>
@@ -166,8 +201,7 @@ privately but with high end security reasons.</li>
                         <a class="primary-button round button" href="#register"><i class="plus"></i>REGISTER</a>
 
                         <section class="content">
-                            <h5>Coming Soon!</h5>
-                            <a href="https://reckon.herokuapp.com/" class="hexagon button" id="register-button">REGISTER</a>
+                            <a href="https://reckonx.hackerearth.com/" target="_blank" class="hexagon button" id="register-button">REGISTER</a>
                         </section>
                     </li>
                     <li id="faq-section">
@@ -176,7 +210,7 @@ privately but with high end security reasons.</li>
                         <a class="primary-button round button" href="#faq"><i class="faq"></i>FAQ</a>
 
                         <section class="content">
-                            <div onclick="currentSlide(1)">
+                            <div>
                                 <h4 class="question">
                                     Can I attend?
                                 </h4>
@@ -184,7 +218,7 @@ privately but with high end security reasons.</li>
                                     Registration are open to all.Students(school/college),professionals,startups etc can surely participate.
                                 </p>
                             </div>
-                            <div onclick="currentSlide(2)">
+                            <div>
                                 <h4 class="question">
                                     How does registration work?
                                 </h4>
@@ -317,191 +351,38 @@ privately but with high end security reasons.</li>
                                     What if this FAQ didn’t answer my questions?
                                 </h4>
                                 <p class="answer">
-                                    Please email us at <a href="mailto:#">#</a> if you’re in any way confused or concerned!  We’d love to help you out :)
+                                    Please email us at <a href="mailto:support@reckonx.in">email</a> if you’re in any way confused or concerned!  We’d love to help you out :)
                                 </p>
                             </div>
                         </section>
                     </li>
-                    <li id="speakers-section">
+                    <li id="speakers-section" onclick="speaker_model()">
                         <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
-                        <a class="compact-button small round button" href="#speakers"><i class="speakers"></i></a>
-                        <a class="primary-button round button" href="#speakers"><i class="speakers"></i>SPEAKERS</a>
+                        <a class="compact-button small round button" href="#!"><i class="speakers"></i></a>
+                        <a class="primary-button round button" href="#!"><i class="speakers"></i>SPEAKERS</a>
+                    </li>
+                    <li id="sponsors-section" onclick="sponsers_model()">
+                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
+                        <a class="compact-button small round button" href="#!"><i class="sponsors"></i></a>
+                        <a class="primary-button round button" href="#!"><i class="sponsors"></i>SPONSORS</a>
+                    </li>
+                    <li id="contactus-section">
+                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
+                        <a class="compact-button small round button" href="#contactus"><i class="contactus"></i></a>
+                        <a class="primary-button round button" href="#contactus"><i class="contactus"></i>Contact Us</a>
 
                         <div class="above-right-wrapper">
-                            <div class="above">
-                                <section class="content">
-                                    Speakers from our sponsors will present on topics ranging from technology to the development of professional skills. A detailed schedule of talks will be sent to hackers.
-                                </section>
-                            </div>
-
                             <div class="right">
                                 <section class="content">
-                                    <h2>KEYNOTE SPEAKERS</h2>
-
-                                    <div class="speaker">
-                                        1<!--img src="#"-->
+                                    
+                                    <div class="contactus">
                                         <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
+                                            <h5><B>Email:-</B> <a href="mailto:info@reckonx.in">info@reckonx.in<a></h5>
+                                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href="mailto:support@reckonx.in">support@reckonx.in</a></h5>
                                         </div>
                                     </div>
                                     <p></p>
-
-                                    <div class="speaker blue">
-                                        2
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <h2></h2>
-
-                                    <div class="speaker">
-                                        3
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <div class="speaker blue">
-                                        4
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <div class="speaker">
-                                        5
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <div class="speaker blue">
-                                        6
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-                                </section>
-                            </div>
-                        </div>
-                    </li>
-                    <li id="sponsors-section">
-                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
-                        <a class="compact-button small round button" href="#sponsors"><i class="sponsors"></i></a>
-                        <a class="primary-button round button" href="#sponsors"><i class="sponsors"></i>SPONSORS</a>
-
-                        <div class="above">
-                            <section class="content">
-                                If you are interested in sponsoring RECKON-jiet 2018, <a href="mailto:#">email us</a> for more details!
-                            </section>
-                        </div>
-                        <div class="right">
-                            <section class="content">
-                                coming soon!
-                                <!--sponsers 
-                                a href="#" style="background-image: url('/assets/logos/NVBots-logo.png')" class="logo bronze"></a-->
-                            </section>
-                        </div>
-                    </li>
-                    <!--<li id="gallery-section">
-                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
-                        <a class="compact-button small round button" href="#gallery"><i class="sponsors"></i></a>
-                        <a class="primary-button round button" href="#gallery"><i class="sponsors"></i>GALLERY</a>
-
-                        <div class="above">
-                            <section class="content">
-                                GALLERY RECKON-jiet 2018
-                            </section>
-                        </div>
-                        <div class="right">
-                            <section class="content">
-                                <iframe id="slider" src="gallery.php"></iframe>
-                            </section>
-                        </div>
-                    </li>-->
-                    <li id="team-section">
-                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
-                        <a class="compact-button small round button" href="#team"><i class="team"></i></a>
-                        <a class="primary-button round button" href="#team"><i class="team"></i>OUR TEAM</a>
-
-                        <div class="above-right-wrapper">
-                            <div class="above">
-                                <section class="content">
-                                    ....
-                                </section>
-                            </div>
-
-                            <div class="right">
-                                <section class="content">
-                                    <h2>OUR TEAM</h2>
-
-                                    <div class="team">
-                                        will be updated soon!<!--img src="#">
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <div class="team blue">
-                                        2
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <h2></h2>
-
-                                    <div class="team">
-                                        3
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <div class="team blue">
-                                        4
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <div class="team">
-                                        5
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p>
-
-                                    <div class="team blue">
-                                        6
-                                        <div class="info">
-                                            <h1></h1>
-                                            <h5></h5>
-                                        </div>
-                                    </div>
-                                    <p></p-->
                                 </section>
                             </div>
                           </div>
@@ -522,25 +403,139 @@ privately but with high end security reasons.</li>
         <div class="mid"></div>
         <div class="right">
             <ul class="social">
-                <li><a href="mailto:#"><i class="mail"></i></a></li>
-                <li><a href="https://twitter.com/#"><i class="twitter"></i></a></li>
-                <li><a href="https://www.facebook.com/#"><i class="facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/#/"><i class="instagram"></i></a></li>
-                <li><a href="https://medium.com/#"><i class="medium"></i></a></li>
+                <li><a href="mailto:info@reckonx.in"><i class="mail"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/info_RECKON?s=08"><i class="twitter"></i></a></li>
+                <li><a target="_blank" href="https://m.facebook.com/inforeckon/"><i class="facebook"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/reckon_x/"><i class="instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/channel/UCVwheoeLhzTLP9kdxj2TWZQ"><i class="youtube"></i></a></li>
             </ul>
         </div>
     </footer>
 
     </span>
+    <!--Theme Modal-->
+    <div id="problem_popup" class="model" style="display: none; margin: 50px 50px 50px 50px;">
+							  
+							  <div class="modal-content">
+							    <span class="close cursor" onclick="closeModal()">&times;</span>
+							    <h4 id="problem" style="color:#FF585D;font-size:3em; margin-top:-10px;">Title</h4>
+							    <hr>
+							    <div id="problem_list" class="plist" style="margin-top: 2em;margin-bottom: 3em;">
+							    	 
+							    </div>
+                                <hr id="break_line">
+                                <div hidden id="slide-container" style="margin-top: 1em; margin-bottom: 3em;">
+							    <ul id="slides">
+							        <span class="nav fa fa-chevron-left fa-3x" id="left"></span>
+							        <span class="nav fa fa-chevron-right fa-3x" id="right"></span>  
+							    </ul>
+							    </div>
+                                							  
+							</div>
+							</div>
+
+    <!--SPONSERS MODAL-->
+    <div id="sponsers_model" class="model" style="display: none; margin: 50px 50px 50px 50px;">
+                              
+        <div class="modal-content">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <section id="sponsors-section" class="plist" style="min-height: 500px;">
+            <h2 id="problem" style="color:#FF585D;font-size:2em; margin-top:0px;">Incubation Partner</h2>
+            <hr>            
+            <a href="http://www.tedstart.com/" target="_blank"><img src="assets/logos/tedstart.png" style="width: auto;height: 60px;" class="logo platinum"></a>
+            <h2 id="problem" style="color:#FF585D;font-size:2em; margin-top:20px;">Sponsers</h2>
+            <hr>
+            <a href="http://jietjodhpur.ac.in/" target="_blank"><img src="assets/logos/jiet.png" class="logo platinum"></a>
+            <a href="http://www.societo.in/" target="_blank"><img src="assets/logos/societo.png" class="logo platinum"></a>
+            <a href="http://www.touchandsense.com/" target="_blank"><img src="assets/logos/tns.png" class="logo platinum"></a>
+            <a href="https://twitter.com/mkjhabak" target="_blank"><img src="assets/logos/mgmv.png" class="logo platinum"></a>
+            <a href="https://www.linkedin.com/in/rounak-sankhla-9a8422104" target="_blank"><img src="assets/logos/rounaksankhla.png" class="logo platinum"></a>
+            <a><img src="assets/logos/Pizza_Hut_logo.png" class="logo platinum"></a>
+            <h2 id="problem" style="color:#FF585D;font-size:2em; margin-top:20px;">Supported By</h2>
+            <hr>
+            <a href="https://www.softwarecube.org/" target="_blank"><img src="assets/logos/star.jpg" class="logo platinum"></a>
+            
+        </section>
+        </div>
+    </div>
+    <!--SPEAKERS MODAL-->
+    <div id="speaker_model" class="model" style="display: none; margin: 50px 50px 50px 50px;">
+                              
+        <div class="modal-content">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <section id="speaker-section">
+            <h2 id="problem" style="color:#FF585D;font-size:2em; margin-top:-5px;">Speakers</h2>
+            <hr>            
+            <div class="row plist" style="min-height: 450px; padding-bottom: 50px;">
+                <div class="card">
+                    <img src="assets/speakers/MahendraJhabak.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h3>Mahendra Jhabak</h3>
+                        <p class="title">Director</p>
+                        <p>Harvard University</p> 
+                        <a href="https://twitter.com/mkjhabak" target="_blank"><img class="icon-linkedin" src="assets/images/icons/Twitter Icon.png"></a>  
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/speakers/dilnawazKhan.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h3>Dilnawaz Khan</h3>
+                        <p class="title">Director</p>
+                        <p>Harvard University</p> 
+                        <a href="https://in.linkedin.com/in/dilnawazkhan" target="_blank"><img class="icon-linkedin" src="assets/images/icons/icon-linkedin.png"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/speakers/gauravPatwa.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h3>Gaurav Patwa</h3>
+                        <p class="title">Director</p>
+                        <p>Harvard University</p> 
+                        <a href="https://in.linkedin.com/in/gaurav-patwa-85410493" target="_blank"><img class="icon-linkedin" src="assets/images/icons/icon-linkedin.png"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/speakers/vinodbeda.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h3>Vinod Beda</h3>
+                        <p class="title">Director</p>
+                        <p>Harvard University</p> 
+                        <a href="https://in.linkedin.com/in/vinodbeda" target="_blank"><img class="icon-linkedin" src="assets/images/icons/icon-linkedin.png"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/speakers/navdeepGulecha.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h3>Navdeep Gulecha</h3>
+                        <p class="title">Director</p>
+                        <p>Harvard University</p> 
+                        <a href="https://www.facebook.com/naturafarmsindia/" target="_blank"><img class="icon-linkedin" src="assets/images/icons/Facebook Icon.png"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/speakers/abhisekBohra.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h3>Abishek Bohra</h3>
+                        <p class="title">Director</p>
+                        <p>Harvard University</p> 
+                        <a href="https://in.linkedin.com/in/abhishek-bohra-777b2243" target="_blank"><img class="icon-linkedin" src="assets/images/icons/icon-linkedin.png"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </div>
+                            
   <div id="fs-container">
         <video muted id="fs-video" style="display:none">
-            <source src="assets/videos/splash-intro-compressed.mp4" type="video/mp4">
+            <!--source src="assets/videos/splash-intro-compressed.mp4" type="video/mp4"-->
+                <source src="assets/videos/splash.mp4" type="video/mp4">
         </video>
     </div>
-    <script type="text/javascript" src="js/zepto.min.js"></script>
-    <script type="text/javascript" src="js/zepto-fx.js"></script>
     <script type="text/javascript" src="js/video.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/zepto-fx.js"></script>
     <!---script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -560,20 +555,35 @@ privately but with high end security reasons.</li>
 <script type="text/javascript">
   function openModal() {
     document.getElementById("problem_popup").style.display = "block";
-    document.getElementById("splash").setAttribute('hidden','true');
+   document.getElementById("splash").setAttribute('hidden','true');
+   $("#problem_popup").addClass('content');
   }
+
+  function sponsers_model() {
+    document.getElementById("sponsers_model").style.display = "block";
+   document.getElementById("splash").setAttribute('hidden','true');
+  }
+
+  function speaker_model() {
+    document.getElementById("speaker_model").style.display = "block";
+   document.getElementById("splash").setAttribute('hidden','true');
+  }
+
 
   function closeModal() {
     document.getElementById("problem_popup").style.display = "none";
+    document.getElementById("sponsers_model").style.display = "none";
+    document.getElementById("speaker_model").style.display = "none";
     document.getElementById("splash").removeAttribute('hidden');
     var problem_list_ul =  document.getElementById("problem_list_ul"); 
-    document.getElementById("problem_list").removeChild(problem_list_ul); 
-    
+    //document.getElementById("problem_list").removeChild(problem_list_ul); 
+    /*$("#problem_popup").removeClass('content');
     var slide = document.getElementById("slides").querySelectorAll("li");    
     var i;
     for (i = 0; i < slide.length; i++) {
         document.getElementById("slides").removeChild(slide[i]); 
-    }
+    }*/
+    
   }
   
   function currentSlide(n){
@@ -602,12 +612,12 @@ privately but with high end security reasons.</li>
         url: "images/problem"+n,
         success: function(data){
             $(data).find("a:contains(.jpg)").each(function(){
-                var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/jiethack-master/", "");
-                $("<li class='slide buried' id='slide_id' style='background-image:url(images/problem" + n + "/" + filename + ");'></li>" ).insertBefore( $( "#left" ) );
+                var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/hackmit-splash-2017-master","");
+                $("<li class='slide buried' id='slide_id' style='background-image:url(images/problem" + n + "" + filename + ");'></li>" ).insertBefore( $( "#left" ) );
             });
             $(data).find("a:contains(.mp4)").each(function(){
-            var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/jiethack-master/", "");
-            $("<li class='slide buried' style=''><video id='myVideo' controls><source src='images/problem" + n + "/" + filename + "' type='video/mp4'></video></li>" ).insertBefore( $( "#left" ) );
+            var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/hackmit-splash-2017-master","");
+            $("<li class='slide buried' style=''><video id='myVideo' controls><source src='images/problem" + n + "" + filename + "' type='video/mp4'></video></li>" ).insertBefore( $( "#left" ) );
      });
         }
     }).then(function(){

@@ -26,11 +26,9 @@ $(document).ready(function() {
 
 		$video.on("ended", function() {
 			$splash.css("visibility", "visible");
-            $splash.animate({"opacity": 1}, 1000, "ease-in");
-
-            $video.animate({"opacity": 0}, 500, "ease-out", function () {
-                $("#fs-container").remove();
-            });
+            $splash.css("opacity", 1)
+            $("#fs-container").remove();
+            
 		});
 	} else {
         $("#fs-container").remove();

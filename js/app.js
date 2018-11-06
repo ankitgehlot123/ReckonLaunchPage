@@ -41,7 +41,7 @@
 	// SECTION TOGGLES
 	////////////////////
 
-	var sections = ['register', 'faq', 'speakers', 'sponsors','team','gallery','theme','problem'];
+	var sections = ['register', 'faq','contactus','gallery','theme','problem'];
 
 	function hideAllSections() {
 		// Reset buttons to default view and hide main content sections
@@ -104,8 +104,8 @@
             var speakers_content = speakers_element.querySelector('#speakers-section .content');
             speakers_element.style.top = s_top + "px";
             speakers_content.style.maxHeight = (window.innerHeight - 130) + "px";
-            var team_element = document.querySelector('#team-section .right');
-            var team_content = team_element.querySelector('#team-section .content');
+            var team_element = document.querySelector('#contactus-section .right');
+            var team_content = team_element.querySelector('#contactus-section .content');
             team_element.style.top = t_top + "px";
             team_content.style.maxHeight = (window.innerHeight - 140) + "px";
         }
@@ -134,7 +134,7 @@
     /* Update DOM */ 	
 	function updateCountdown(countdownElement, days) {
         var remainingMessage = " DAYS REMAINING";
-        var launchMessage = "RECKON-jiet is here!";
+        var launchMessage = "RECKON-JIET 2018 is here!";
         
 		if (days == 35) {
             //countdownElement.innerHTML = "<a id='innerSpinnerAnchorText' href='http://delorean.codes'>delorean.codes</a>";
